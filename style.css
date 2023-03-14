@@ -241,3 +241,30 @@ body {
 #exp-title p{
   margin: 5px 0;
 }
+
+
+
+.row3{
+  /* background-color: var(--darkGrey); */
+}
+
+.row3 .col-container{
+}
+
+.row3 .col-small{
+  top: 0%;
+  transform: none;
+  padding: 0 40px;
+}
+.row3 .col-large{
+  padding: 20px 40px;
+}
+
+
+
+.projects-container{
+  margin: 50px auto;
+  width: 70%;
+  z-index: 50;
+  position: relative;
+}
