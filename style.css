@@ -12,6 +12,13 @@ html {
 }
 body {
   margin: 0;
+  color: var(--textColor);
+  font-family: "Hanken Grotesk", sans-serif;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 226, 234) 0%,
+    rgb(213, 247, 255) 100%
+  );
 }
 
 .container {
