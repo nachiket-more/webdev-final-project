@@ -104,7 +104,7 @@ body {
 
 #name{
     font-weight: bold;
-    font-size: 25px;
+    font-size: 27px;
     display: flex;
     align-items: center;
     margin: 0 20px;
@@ -280,7 +280,7 @@ body {
 .project-subject-name{
   background-color: var(--textColor);
   border-radius: 20px;
-  padding: 7px 20px;
+  padding: 10px 20px;
   height: fit-content;
   width: fit-content;
   margin-right: 10px;
@@ -295,4 +295,68 @@ body {
 }
 .project-github{
   height: 30px;
+}
+
+
+
+
+.row4{
+  /* background-color: var(--lightGrey); */
+}
+
+.row4 .col-container{
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.contact-form{
+  height: fit-content;
+  width: 80%;
+  /* background-color: #252734; */
+  margin: 0 auto;
+}
+.form-element{
+  margin: 20px 0;
+  z-index: 50;
+  position: relative;
+}
+.input-title{
+  margin: 10px;
+}
+.input-field{
+  width: 90%;
+  height: 30px;
+  padding: 2% 4%;
+  font-size: 15px;
+
+  color: var(--lightGreyText);
+  
+  background-color: var(--white);
+  margin: 10px 0 0 0 !important;
+  border-width: 2px;
+  border-radius: 30px;
+  border: 1px solid var(--white);
+  box-shadow: none;
+
+  box-shadow: 0 2rem 5rem -1rem rgb(0 16 36 / 9%);
+  backdrop-filter: blur(4px);
+}
+
+#contact-msg{
+  width: 98%;
+  height: unset; 
+  margin: 0;
+  padding: 2% 4%;
+  box-sizing: border-box;
+}
+
+.button{
+  width: 98%;
+  border: 1px solid var(--textColor);
+  background-color: var(--textColor);
+  padding: 3%;
+  color: var(--white);
+  border-radius: 20px;
+  
+  font-family: 'Hanken Grotesk', sans-serif;
 }
