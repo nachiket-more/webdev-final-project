@@ -148,6 +148,7 @@ body {
 .menu {
   display: flex;
 }
+
 .small-menu{
   width: 70%;
   height: 100vh;
@@ -155,7 +156,7 @@ body {
   top: 0;
   z-index: 100;
   background-color: var(--darkBlue);
-  right: 0;
+  right: -100%;
   display: none;
 
   
@@ -498,10 +499,6 @@ body {
     }
     .projects-container{
         width: 86%;
-    }
-
-    .small-menu{
-      display: flex;
     }
 }
 
