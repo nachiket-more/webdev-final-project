@@ -148,6 +148,63 @@ body {
 .menu {
   display: flex;
 }
+.small-menu{
+  width: 70%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  background-color: var(--darkBlue);
+  right: 0;
+  display: none;
+
+  
+  flex-direction: column;
+  justify-content: center;
+  
+  transition: right 0.3s ease-out;
+
+}
+#open-icon, #close-icon{
+  color: var(--cardColor);
+  position: absolute;
+  top: 0;
+  right: 10px;
+  margin: 0px;
+  font-size: 50px;
+}
+#open-icon{
+  color: var(--darkBlue);
+  display: none;
+  position: relative;
+}
+
+#close-icon{
+  margin: 30px;
+}
+
+.small-menu .navbar-container{
+}
+.small-menu  .navbar-links {
+  display: flex;
+  flex-direction: column;
+}
+.small-menu  .navbar-links li {
+  margin: 10px 0;
+}
+.small-menu  .navbar-links a {
+  color: var(--cardColor);
+}
+.small-menu  .navbar-links a:focus {
+  color: var(--textColor1);
+}
+.small-menu  #contact-link{
+  background-color: var(--cardColor);
+}
+.small-menu #contact-link a{
+  color: var(--textColor) !important;
+}
+
 .navbar-container{
   width: 100%;
   height: 70px;
@@ -441,6 +498,10 @@ body {
     }
     .projects-container{
         width: 86%;
+    }
+
+    .small-menu{
+      display: flex;
     }
 }
 
