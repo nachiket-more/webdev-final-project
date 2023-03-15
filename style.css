@@ -268,3 +268,31 @@ body {
   z-index: 50;
   position: relative;
 }
+
+.project-bottom{
+  margin-top: 40px;
+  display: flex;
+}
+.project-subjects{
+  display: flex;
+  align-items: center;
+}
+.project-subject-name{
+  background-color: var(--textColor);
+  border-radius: 20px;
+  padding: 7px 20px;
+  height: fit-content;
+  width: fit-content;
+  margin-right: 10px;
+  color: var(--white);
+}
+.project-link{
+  padding: 0px 20px;
+  border-radius: 7px;
+
+  position: absolute;
+  right: 20px;
+}
+.project-github{
+  height: 30px;
+}
