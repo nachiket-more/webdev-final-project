@@ -254,6 +254,10 @@ body {
   margin: 5px 0;
 }
 
+.row3{
+  padding: 5%;
+}
+
 .row3 .col-small {
   top: 0%;
   transform: none;
