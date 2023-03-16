@@ -211,11 +211,13 @@ body {
 }
 .contact-link {
   background-color: var(--textColor);
-  padding: 10px 20px;
   border-radius: 20px;
 }
 .contact-link a {
   color: var(--white) !important;
+  padding: 10px 20px;
+  display: block;
+
 }
 
 .heading {
