@@ -270,7 +270,7 @@ body {
 .projects-container {
   margin: 50px auto;
   width: 70%;
-  z-index: 100;
+  z-index: 99;
   position: relative;
 }
 .projects-container li {
